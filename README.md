@@ -39,7 +39,7 @@ This is a Python implementation of a web crawler that can crawl websites and sto
 
 ## Usage
 
-Run the crawler with the default seed URL (https://www.cc.gatech.edu/):
+Run the crawler with the default seed URL:
 ```
 python main.py
 ```
