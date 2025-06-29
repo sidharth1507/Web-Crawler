@@ -3,8 +3,6 @@
 ## Overview
 This is a Python implementation of a web crawler that can crawl websites and store the content in a MongoDB database. The crawler is designed to be efficient, using threading for concurrent operations, and includes statistics tracking to monitor performance.
 
-![Web Crawler Diagram](images/web-crawler-diagram.png)
-
 ## Features
 - Concurrent fetching and parsing of web pages
 - MongoDB integration for storing crawled content
@@ -16,33 +14,6 @@ This is a Python implementation of a web crawler that can crawl websites and sto
 ## Requirements
 - Python 3.7+
 - MongoDB (optional, for web archive functionality)
-
-## Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/web-crawler.git
-   cd web-crawler
-   ```
-
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. (Optional) Set up MongoDB for web archive functionality:
-   - Create a MongoDB Atlas account or use a local MongoDB instance
-   - Create a `.env` file in the project root with your MongoDB connection string:
-     ```
-     MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/
-     ```
-
-## Usage
-
-Run the crawler with the default seed URL:
-```
-python main.py
-```
 
 ## How it works
 
@@ -70,22 +41,3 @@ The crawler stores the following information for each crawled page:
 - URL
 - Title
 - Content (first 500 characters after the body tag)
-
-This information can be searched using MongoDB's search functionality.
-
-## Performance
-
-The crawler tracks the following statistics:
-- Crawl Speed: Pages per minute
-- Crawled to Queued Ratio per minute
-
-## Future Enhancements
-
-- Allow the user to specify the seed URL
-- Implement different crawling algorithms (BFS, DFS, hybrids)
-- Improve content extraction for better representation of webpage content
-- Handle relative links
-- Implement a more sophisticated throttling mechanism to respect robots.txt
-
-
-
