@@ -13,7 +13,7 @@ This is a Python implementation of a web crawler that can crawl websites and sto
 
 ## Requirements
 - Python 3.7+
-- MongoDB (optional, for web archive functionality)
+- MongoDB
 
 ## How it works
 
