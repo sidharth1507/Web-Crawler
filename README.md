@@ -1,14 +1,13 @@
 # Web Crawler
 
 ## Overview
-This is a Python implementation of a web crawler that can crawl websites and store the content in a MongoDB database. The crawler is designed to be efficient, using threading for concurrent operations, and includes statistics tracking to monitor performance.
+This is a Python implementation of a web crawler that can crawl websites and store the content in a MongoDB database.
 
 ## Features
 - Concurrent fetching and parsing of web pages
 - MongoDB integration for storing crawled content
 - Avoids loops and dead ends
 - Ignores script and style tags
-- Gracefully handles invalid URLs and errors
 - Performance statistics tracking
 
 ## Requirements
