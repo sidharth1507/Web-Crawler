@@ -41,9 +41,3 @@ The crawler stores the following information for each crawled page:
 - URL
 - Title
 - Content (first 500 characters after the body tag)
-
-- Handle relative links
-- Implement a more sophisticated throttling mechanism to respect robots.txt
-
-
-
